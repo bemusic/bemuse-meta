@@ -1,0 +1,24 @@
+servers:
+  https://bmson.nekokan.dyndns.info/mettatunes/:
+    title: METTATUNES
+    type: event
+    event: mettatunes
+    date: 2016-05-16
+  https://bmson.nekokan.dyndns.info/forgetalia/:
+    title: The Forgetalia
+    type: event
+    event: forgetalia
+    date: 2016-01-01
+events:
+  mettatunes:
+    name: METTATUNES
+    url: http://keysounds.net/mettatunes/
+    date: 2016-05-16
+  forgetalia:
+    name: The Forgetalia
+    url: http://cerebralmuddystream.nekokan.dyndns.info/bmson/forgetalia.html
+    date: 2016-01-01
+meta:
+  types:
+    event: An official Bemuse server for an event.
+    team: A Bemuse server for a team.
